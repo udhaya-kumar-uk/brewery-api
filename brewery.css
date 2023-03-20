@@ -1,0 +1,44 @@
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    background:
+    url(https://thirdeyebrewingco.com/wp-content/uploads/2020/12/hero1.png)
+    center / cover no-repeat fixed;
+    text-transform: capitalize;
+    font-family: fantasy;
+   }
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card {
+ overflow: hidden;
+ width: 500px;
+ height: 400px;
+ margin: 70px;
+ padding: 20px ;
+ transform: scale(1.2);
+ background: transparent;
+ color: seashell;
+ background-color: rgba(27, 12, 12, 0.45);
+
+}
+
+.name{
+     border: 1px solid rgba(231, 211, 29, 0.87);
+     border-radius: 20px;
+     box-shadow: 0 0 10px 1px rgba(197, 63, 63, 0.25);
+     color: seashell;
+     backdrop-filter: blur(15px);
+     margin: 30px;
+     padding: 30px;
+     width: 100%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
